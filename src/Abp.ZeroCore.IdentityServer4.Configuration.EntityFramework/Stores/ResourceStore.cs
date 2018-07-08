@@ -28,7 +28,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Abp.ZeroCore.IdentityServer4.Configuration.EntityFramework.Stores
+namespace Abp.IdentityServer4.Stores
 {
     /// <summary>
     /// Implementation of IResourceStore thats uses Repository.

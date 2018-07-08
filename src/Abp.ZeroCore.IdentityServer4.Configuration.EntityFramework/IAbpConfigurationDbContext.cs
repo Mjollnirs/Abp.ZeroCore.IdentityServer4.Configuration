@@ -14,10 +14,10 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-using Abp.ZeroCore.IdentityServer4.Configuration.Entities;
+using Abp.IdentityServer4.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Abp.ZeroCore.IdentityServer4.Configuration.EntityFramework
+namespace Abp.IdentityServer4
 {
     public interface IAbpConfigurationDbContext
     {

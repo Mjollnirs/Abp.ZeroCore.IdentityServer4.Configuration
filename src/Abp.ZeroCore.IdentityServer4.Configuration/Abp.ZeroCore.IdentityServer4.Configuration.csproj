@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Abp.IdentityServer4</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

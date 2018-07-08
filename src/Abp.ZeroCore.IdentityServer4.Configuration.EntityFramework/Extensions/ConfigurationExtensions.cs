@@ -17,15 +17,15 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-using Abp.ZeroCore.IdentityServer4.Configuration.Entities;
-using Abp.ZeroCore.IdentityServer4.Configuration.EntityFramework.Options;
+using Abp.IdentityServer4.Entities;
+using Abp.IdentityServer4.Options;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Abp.ZeroCore.IdentityServer4.Configuration.EntityFramework.Extensions
+namespace Abp.IdentityServer4.Extensions
 {
     /// <summary>
     /// Extension methods to define the database schema for the configuration and operational data stores.

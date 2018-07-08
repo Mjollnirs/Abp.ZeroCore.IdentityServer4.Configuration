@@ -21,7 +21,7 @@ using Abp.Domain.Entities;
 using System;
 using static IdentityServer4.IdentityServerConstants;
 
-namespace Abp.ZeroCore.IdentityServer4.Configuration.Entities
+namespace Abp.IdentityServer4.Entities
 {
     public abstract class Secret : Entity<int>
     {

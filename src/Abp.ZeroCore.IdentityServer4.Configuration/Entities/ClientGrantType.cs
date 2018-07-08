@@ -19,7 +19,7 @@
 // limitations under the License.
 using Abp.Domain.Entities;
 
-namespace Abp.ZeroCore.IdentityServer4.Configuration.Entities
+namespace Abp.IdentityServer4.Entities
 {
     public class ClientGrantType : Entity<int>
     {

@@ -1,7 +1,7 @@
 ﻿// Copyright (c) Brock Allen & Dominick Baier. All rights reserved.
 // Licensed under the Apache License, Version 2.0. See LICENSE-IdentityServer4-EntityFramework in the project root for license information.
 
-// Project: Abp.ZeroCore.IdentityServer4.Configuration
+// Project: Abp.IdentityServer4
 // File: ApiSecret.cs
 // 
 // Copyright 2018 Mjollnir<mjollnir@59k.org>
@@ -17,7 +17,7 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-namespace Abp.ZeroCore.IdentityServer4.Configuration.Entities
+namespace Abp.IdentityServer4.Entities
 {
     public class ApiSecret : Secret
     {

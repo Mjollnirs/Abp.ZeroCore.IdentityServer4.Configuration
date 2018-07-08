@@ -18,7 +18,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Abp.ZeroCore.IdentityServer4.Configuration.EntityFramework.Options
+namespace Abp.IdentityServer4.Options
 {
     /// <summary>
     /// Class to control a table's name and schema.

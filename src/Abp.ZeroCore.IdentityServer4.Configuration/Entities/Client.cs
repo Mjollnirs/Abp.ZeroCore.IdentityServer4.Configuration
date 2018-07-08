@@ -22,7 +22,7 @@ using IdentityServer4.Models;
 using System.Collections.Generic;
 using static IdentityServer4.IdentityServerConstants;
 
-namespace Abp.ZeroCore.IdentityServer4.Configuration.Entities
+namespace Abp.IdentityServer4.Entities
 {
     public class Client : Entity<int>
     {

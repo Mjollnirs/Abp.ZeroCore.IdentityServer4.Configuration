@@ -20,7 +20,7 @@ using IdentityServer4.Models;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Abp.ZeroCore.IdentityServer4.Configuration.EntityFramework.Seed
+namespace Abp.IdentityServer4.Seed
 {
     public class DefaultIdentityServerConfigCreator
     {

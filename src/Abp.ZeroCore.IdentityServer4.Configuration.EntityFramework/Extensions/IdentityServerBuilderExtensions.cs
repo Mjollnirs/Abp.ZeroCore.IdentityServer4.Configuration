@@ -14,11 +14,11 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-using Abp.ZeroCore.IdentityServer4.Configuration.EntityFramework.Services;
-using Abp.ZeroCore.IdentityServer4.Configuration.EntityFramework.Stores;
+using Abp.IdentityServer4.Services;
+using Abp.IdentityServer4.Stores;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Abp.ZeroCore.IdentityServer4.Configuration.EntityFramework.Extensions
+namespace Abp.IdentityServer4.Extensions
 {
     /// <summary>
     /// Extension methods to add Abp Repository support to IdentityServer.

@@ -17,7 +17,7 @@
 using Abp.Modules;
 using Abp.Reflection.Extensions;
 
-namespace Abp.ZeroCore.IdentityServer4.Configuration.EntityFramework
+namespace Abp.IdentityServer4
 {
     [DependsOn(typeof(AbpZeroCoreIdentityServer4ConfigurationModule))]
     public class AbpZeroCoreIdentityServer4ConfigurationEntityFrameworkModule : AbpModule

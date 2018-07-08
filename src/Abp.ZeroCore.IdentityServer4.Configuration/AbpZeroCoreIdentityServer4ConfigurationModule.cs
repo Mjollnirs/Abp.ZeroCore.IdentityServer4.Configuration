@@ -22,7 +22,7 @@ using IdentityServer4.Models;
 using System.Collections.Generic;
 using System.Security.Claims;
 
-namespace Abp.ZeroCore.IdentityServer4.Configuration
+namespace Abp.IdentityServer4
 {
     [DependsOn(typeof(AbpAutoMapperModule))]
     public class AbpZeroCoreIdentityServer4ConfigurationModule : AbpModule

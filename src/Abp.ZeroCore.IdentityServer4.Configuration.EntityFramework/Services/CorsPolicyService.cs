@@ -26,7 +26,7 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Abp.ZeroCore.IdentityServer4.Configuration.EntityFramework.Services
+namespace Abp.IdentityServer4.Services
 {
     /// <summary>
     /// Implementation of ICorsPolicyService that consults the client configuration in the Repository for allowed CORS origins.

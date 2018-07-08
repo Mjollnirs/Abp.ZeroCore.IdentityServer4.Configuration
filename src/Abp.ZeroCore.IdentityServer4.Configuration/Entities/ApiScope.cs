@@ -20,7 +20,7 @@
 using Abp.Domain.Entities;
 using System.Collections.Generic;
 
-namespace Abp.ZeroCore.IdentityServer4.Configuration.Entities
+namespace Abp.IdentityServer4.Entities
 {
     public class ApiScope : Entity<int>
     {

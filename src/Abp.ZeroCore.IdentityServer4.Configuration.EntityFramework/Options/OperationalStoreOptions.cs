@@ -17,7 +17,7 @@
 using Microsoft.EntityFrameworkCore;
 using System;
 
-namespace Abp.ZeroCore.IdentityServer4.Configuration.EntityFramework.Options
+namespace Abp.IdentityServer4.Options
 {
     /// <summary>
     /// Options for configuring the operational context.
