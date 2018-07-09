@@ -42,6 +42,7 @@ InitialHostDbBuilder.cs
 new DefaultIdentityServerConfigCreator(_context).Create();
 ```
 
+Startup.cs
 ```csharp
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
