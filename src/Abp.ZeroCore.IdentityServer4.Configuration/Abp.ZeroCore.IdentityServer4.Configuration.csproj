@@ -1,10 +1,26 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <Version>1.0.0</Version>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Abp.IdentityServer4</RootNamespace>
+    <PackageId>Abp.ZeroCore.IdentityServer4.Configuration</PackageId>
+    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+    <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
+    <PackageProjectUrl>https://github.com/Mjollnirs/Abp.ZeroCore.IdentityServer4.Configuration</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/Mjollnirs/Abp.ZeroCore.IdentityServer4.Configuration/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/Mjollnirs/Abp.ZeroCore.IdentityServer4.Configuration</RepositoryUrl>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)' == 'Release' ">
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+  
   <ItemGroup>
     <PackageReference Include="Abp.AutoMapper" Version="3.7.2" />
     <PackageReference Include="IdentityServer4" Version="2.2.0" />
