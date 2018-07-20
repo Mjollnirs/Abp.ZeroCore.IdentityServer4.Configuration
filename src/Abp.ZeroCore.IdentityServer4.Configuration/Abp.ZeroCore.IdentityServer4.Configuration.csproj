@@ -15,12 +15,13 @@
     <PackageLicenseUrl>https://github.com/Mjollnirs/Abp.ZeroCore.IdentityServer4.Configuration/blob/master/LICENSE</PackageLicenseUrl>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/Mjollnirs/Abp.ZeroCore.IdentityServer4.Configuration</RepositoryUrl>
+    <Description>IdentityServer4 ConfigurationStore(ClientStore,ResourceStore,CorsPolicyService) for Abp</Description>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)' == 'Release' ">
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
-  
+
   <ItemGroup>
     <PackageReference Include="Abp.AutoMapper" Version="3.7.2" />
     <PackageReference Include="IdentityServer4" Version="2.2.0" />

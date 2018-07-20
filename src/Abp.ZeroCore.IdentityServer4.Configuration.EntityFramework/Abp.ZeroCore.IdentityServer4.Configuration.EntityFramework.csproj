@@ -15,6 +15,7 @@
     <PackageLicenseUrl>https://github.com/Mjollnirs/Abp.ZeroCore.IdentityServer4.Configuration/blob/master/LICENSE</PackageLicenseUrl>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/Mjollnirs/Abp.ZeroCore.IdentityServer4.Configuration</RepositoryUrl>
+    <Description>IdentityServer4 ConfigurationStore(ClientStore,ResourceStore,CorsPolicyService) for Abp</Description>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)' == 'Release' ">
