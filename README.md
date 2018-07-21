@@ -1,6 +1,7 @@
 # Abp.ZeroCore.IdentityServer4.Configuration
 
 [![Build status](https://ci.appveyor.com/api/projects/status/5482r5ukh7jio2it?svg=true)](https://ci.appveyor.com/project/Mjollnirs/abp-zerocore-identityserver4-configuration)
+[![NuGet version](https://badge.fury.io/nu/Abp.ZeroCore.IdentityServer4.Configuration.svg)](https://badge.fury.io/nu/Abp.ZeroCore.IdentityServer4.Configuration)
 
 ```csharp
     [DependsOn(typeof(AbpZeroCoreIdentityServer4ConfigurationModule))]
