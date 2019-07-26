@@ -23,8 +23,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Abp.AutoMapper" Version="3.7.2" />
-    <PackageReference Include="IdentityServer4" Version="2.2.0" />
+    <PackageReference Include="Abp.AutoMapper" Version="4.8.1" />
+    <PackageReference Include="IdentityServer4" Version="2.5.0" />
   </ItemGroup>
 
 </Project>
