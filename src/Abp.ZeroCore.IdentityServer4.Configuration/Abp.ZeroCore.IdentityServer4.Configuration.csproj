@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Version>1.0.0</Version>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>5.1.0</Version>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>Abp.IdentityServer4</RootNamespace>
     <PackageId>Abp.ZeroCore.IdentityServer4.Configuration</PackageId>
     <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
@@ -12,7 +12,7 @@
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
     <PackageProjectUrl>https://github.com/Mjollnirs/Abp.ZeroCore.IdentityServer4.Configuration</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/Mjollnirs/Abp.ZeroCore.IdentityServer4.Configuration/blob/master/LICENSE</PackageLicenseUrl>
+    <License>https://github.com/Mjollnirs/Abp.ZeroCore.IdentityServer4.Configuration/blob/master/LICENSE</License>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/Mjollnirs/Abp.ZeroCore.IdentityServer4.Configuration</RepositoryUrl>
     <Description>IdentityServer4 ConfigurationStore(ClientStore,ResourceStore,CorsPolicyService) for Abp</Description>
@@ -23,8 +23,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Abp.AutoMapper" Version="4.8.1" />
-    <PackageReference Include="IdentityServer4" Version="2.5.0" />
+    <PackageReference Include="Abp.AutoMapper" Version="5.1.0" />
+    <PackageReference Include="IdentityServer4" Version="3.1.0" />
   </ItemGroup>
 
 </Project>
