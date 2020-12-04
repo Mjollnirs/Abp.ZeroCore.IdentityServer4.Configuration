@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Version>5.1.0</Version>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Version>6.0.0</Version>
+    <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>Abp.IdentityServer4</RootNamespace>
     <PackageId>Abp.ZeroCore.IdentityServer4.Configuration</PackageId>
     <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
@@ -23,8 +23,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Abp.AutoMapper" Version="5.1.0" />
-    <PackageReference Include="IdentityServer4" Version="3.1.0" />
+    <PackageReference Include="Abp.AutoMapper" Version="6.0.0" />
+    <PackageReference Include="IdentityServer4" Version="3.1.4" />
   </ItemGroup>
 
 </Project>
