@@ -3,8 +3,8 @@
   <PropertyGroup>
     <Version>6.0.0</Version>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>Abp.IdentityServer4</RootNamespace>
-    <PackageId>Abp.ZeroCore.IdentityServer4.Configuration.EntityFramework</PackageId>
+    <RootNamespace>Abp.IdentityServer4vNext</RootNamespace>
+    <PackageId>Abp.ZeroCore.IdentityServer4.Configuration</PackageId>
     <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
     <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
@@ -12,7 +12,7 @@
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
     <PackageProjectUrl>https://github.com/Mjollnirs/Abp.ZeroCore.IdentityServer4.Configuration</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/Mjollnirs/Abp.ZeroCore.IdentityServer4.Configuration/blob/master/LICENSE</PackageLicenseUrl>
+    <License>https://github.com/Mjollnirs/Abp.ZeroCore.IdentityServer4.Configuration/blob/master/LICENSE</License>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/Mjollnirs/Abp.ZeroCore.IdentityServer4.Configuration</RepositoryUrl>
     <Description>IdentityServer4 ConfigurationStore(ClientStore,ResourceStore,CorsPolicyService) for Abp</Description>
@@ -23,16 +23,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Abp.ZeroCore.IdentityServer4.Configuration\Abp.ZeroCore.IdentityServer4.Configuration.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Options\" />
+    <PackageReference Include="Abp.AutoMapper" Version="6.0.0" />
+    <PackageReference Include="IdentityServer4" Version="4.1.1" />
   </ItemGroup>
 
 </Project>

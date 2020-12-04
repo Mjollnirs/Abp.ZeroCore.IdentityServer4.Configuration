@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Version>6.0.0</Version>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>Abp.IdentityServer4</RootNamespace>
+    <RootNamespace>Abp.IdentityServer4vNext</RootNamespace>
     <PackageId>Abp.ZeroCore.IdentityServer4.Configuration.EntityFramework</PackageId>
     <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
     <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
@@ -28,11 +28,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Abp.ZeroCore.IdentityServer4.Configuration\Abp.ZeroCore.IdentityServer4.Configuration.csproj" />
+    <Folder Include="Options\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Options\" />
+    <ProjectReference Include="..\Abp.ZeroCore.IdentityServer4.vNext.Configuration\Abp.ZeroCore.IdentityServer4.vNext.Configuration.csproj" />
   </ItemGroup>
 
 </Project>
